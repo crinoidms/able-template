@@ -1,0 +1,20 @@
+.center-730 {
+  max-width: 730px;
+  @media (max-width: 1024px) {
+    max-width: 540px;
+  }
+}
+.swiper-btn {
+  top: calc( 50% - 15px );
+}
+.opacity-2 {
+  opacity: .2;
+}
+.toggle-btn1 {
+  padding: 10px;
+  opacity: .4;
+}
+.toggle-btn1.active {
+  opacity: 1;
+  border-bottom: 2px solid #0065F2;
+}
